@@ -1,7 +1,6 @@
 import React from 'react'
 import { useSession, signIn, signOut } from 'next-auth/react'
-import SEO from 'components/seo';
-import Header from 'components/header/header';
+
 
 const login = () => {
     const { data: session } = useSession();
@@ -11,6 +10,7 @@ const login = () => {
            
             <div className={styles.grid}>
                 <p>Welcome, {session.user.name}</p>
+                <p>Thanks for your response, we'll get back to you through an email in moments!</p>
                 <button onClick={()=> signOut()}>Sign Out</button>
             </div>
           
