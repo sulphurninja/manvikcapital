@@ -28,7 +28,7 @@ function Footer() {
 
 
 									Email :
-									<p> mail@themanvikcapital.com </p>
+									<p> mail@www.themanvikcapital.com </p>
 								</p>
 							</p>
 						</p>
