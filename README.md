@@ -1,3 +1,3 @@
-# Finance Landig Page Website - Built with Next.js + Tailwind CSS 
+# Finance Landing Page Website - Built with Next.js + Tailwind CSS 
 
 
